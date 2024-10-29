@@ -6,3 +6,25 @@ Content-Type: application/json
     "email": "asdasfa@gmail.com",
     "password": "1234567891sd0"
 }
+
+### Login sin conexion a BBD
+
+POST http://127.0.0.1:3000/auth/login
+Content-Type: application/json
+
+{
+    "name": "prueba1",
+    "email": "asdasfa@gmail.com",
+    "password": "1234567891sd0"
+}
+
+
+### users
+
+GET  http://127.0.0.1:3000/user
+
+
+
+
+
+
