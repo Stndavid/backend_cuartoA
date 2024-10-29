@@ -12,19 +12,13 @@ Content-Type: application/json
 POST http://127.0.0.1:3000/auth/login
 Content-Type: application/json
 
-{
-    "name": "prueba1",
+ {
+    "name": "STEEVEN1",
     "email": "asdasfa@gmail.com",
     "password": "1234567891sd0"
 }
 
-
 ### users
 
 GET  http://127.0.0.1:3000/user
-
-
-
-
-
-
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE3MzAyMTQxMjMsImV4cCI6MTczMDIxNDE4M30.w1PWKLFGAkjotNgTHhqUjabtTckFOpStoWnpkgOIBJA

@@ -10,7 +10,7 @@ import { JwtAuthGuard } from './jwr-auth.guard';
   imports :[
     JwtModule.register({
       secret: "MI CODIGO SECRETO",
-      signOptions:{expiresIn: '100s'}
+      signOptions:{expiresIn: '60s'}
     })
   ],
   controllers: [AuthController],
