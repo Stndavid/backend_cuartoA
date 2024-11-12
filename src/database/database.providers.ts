@@ -13,6 +13,9 @@ export const databaseProvider = [
                 username: config.get('USERNAME') || 'postgres',
                 password: config.get('PASSWORD') || '123',
                 database: config.get('DATABASE') || 'back_nestAngular_SC',
+                entities: [
+                    __dirname + '/../**/*.entity{.ts,.js}'
+                ]
             });
 
             return dataSource.initialize();
